@@ -2,7 +2,7 @@
     <div class="block-flat">
         <h1 class="page-header">Storitve</h1>
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="pedikura">
                 <div class="box">
                         <img src="./assets/img/pedikura.png" alt="Pedikura" class="box-icon" />
                     <div class="info">
@@ -12,8 +12,7 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="nega-obraza">
                 <div class="box">
                         <img src="./assets/img/nega_obraza.jpg" alt="Nega obraza" class="box-icon" />
                     <div class="info">
@@ -26,7 +25,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="masaza-stopal">
                 <div class="box">
                         <img src="./assets/img/masaza-stopal.jpg" alt="Masaža stoapl" class="box-icon" />
                     <div class="info">
@@ -35,7 +34,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="depilacija">
                 <div class="box">
                     <img src="./assets/img/depilacija.jpg" alt="Depilacija" class="box-icon" />
                     <div class="info">
@@ -46,8 +45,7 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="wax">
                 <div class="box">
                         <img src="./assets/img/wax.jpg" alt="Brazilska depilacija" class="box-icon" />
                     <div class="info">
@@ -57,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="masaza">
                 <div class="box">
                     <img src="./assets/img/masaza.jpg" alt="Masaža" class="box-icon" />
                     <div class="info">
@@ -67,7 +65,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="box">
                     <img src="./assets/img/kozmetika_afrodita.jpg" alt="Maloprodaja kozmetike Afrodita" class="box-icon" />

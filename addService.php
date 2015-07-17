@@ -18,7 +18,7 @@ if ( isset($_SESSION["user_id"]) ) {
 </div>
 <br />
 <br />
-<textarea placeholder='Dodatne opombe' class='form-control' name='notes[$category][$new]' data-attr-id='$new'></textarea>
+<textarea placeholder='Dodatne informacije' class='form-control' name='notes[$category][$new]' data-attr-id='$new'></textarea>
 <span class='pull-right cursor' onclick='deleteService($new);'><i class='fa fa-times text-danger'></i></span>
 <div class='clearfix'></div>
 </li>";

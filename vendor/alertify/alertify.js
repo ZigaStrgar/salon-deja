@@ -37,7 +37,7 @@
             position:'bottom-right'
         },
         glossary:{
-            title:'Avtodeli',
+            title:'Salon Deja',
             ok: 'OK',
             cancel: 'Prekliči',
             acccpt: 'Sprejmi',

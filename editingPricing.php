@@ -6,6 +6,7 @@ if(isset($_SESSION["user_id"])){
     $names = $_POST["names"];
     $prices = $_POST["prices"];
     $notes = $_POST["notes"];
+    $error = 0;
 
     foreach ($categories as $key => $value){
         Db::update("categories", ["name" => $value], "WHERE id = $key");

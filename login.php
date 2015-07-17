@@ -13,7 +13,7 @@
                 <div role="tabpanel" class="tab-pane active block-flat" id="login">
                     <h1 class="page-header">Prijava</h1>
                     <?php if (!empty($_SESSION["move_me_to"])) { ?>
-                        <div class="col-lg-12 alert alert-danger alert-fixed-bottom">
+                        <div class="col-lg-12 alert alert-danger">
                             Da bi videli to stran, se najprej prijavite!
                         </div>
                     <?php } ?>

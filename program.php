@@ -1,22 +1,21 @@
 <?php include_once "header.php"; ?>
     <div class="block-flat">
         <h1 class="page-header">Program hujšanja</h1>
+        <span class="text-center h4" style="display:block;">V našem kozmetičnem salonu smo za naše stranke pripravili tudi programe za učinkovito
+            preoblikovanje telesa. Z vsako stranko se pogovorimo in izberemo njej ustrezen program.</span>
 
-        <p class="text-center h4">V našem kozmetičnem salonu smo za naše stranke pripravili tudi programe za učinkovito
-            preoblikovanje telesa. Z vsako stranko se pogovorimo in izberemo njej ustrezen program.</p>
-
-        <p class="text-center h4">Kako dosežemo, da bo naše telo zopet čvrsto, brez celulita in da bomo izgubili
+        <span class="text-center h4" style="display:block;">Kako dosežemo, da bo naše telo zopet čvrsto, brez celulita in da bomo izgubili
             trdovratne
             maščobne blazinice na predelih trebuha, zadnjice, bokih, zunanja in notranja stran stegen, ob kolenih,
             zgornjem
-            delu rok?</p>
+            delu rok?</span>
 
-        <p class="text-center h2 action text-uppercase">To dosežemo z izbiro ustreznih kombinacij tehnik za
+        <span class="text-center h2 action text-uppercase" style="display:block;">To dosežemo z izbiro ustreznih kombinacij tehnik za
             preoblikovanje
-            telesa.</p>
+            telesa.</span>
 
-        <h2 class="page-header">Kavitacija - liposukcija brez noža</h2>
-        <img src="assets/img/liposukcija.png" alt="Liposukcija / Kavitacija" align="right"/>
+        <h2 class="page-header" id="kavitacija">Kavitacija - liposukcija brez noža</h2>
+        <img src="assets/img/liposukcija.png" style="padding: 5px;" alt="Liposukcija / Kavitacija" align="right"/>
 
         <p>Kavitacija je trenutno najbolj uspešen in varen način <b>odstranjevanja celulita in odvečne maščobe v
                 telesu.</b>
@@ -69,8 +68,8 @@
             ni stroge diete, potrebno je samo jesti zdravo, manj mastno hrano z veliko zelenjave in sadja, izogibamo se
             prekomernemu pitju kave in vsaj tri dni po tretmaju se izogibamo alkoholu. </p>
 
-        <h2 class="page-header">Presoterapija - strojna limfna drenaža</h2>
-        <img src="assets/img/limfna.png" alt="Presoterapija" align="left"/>
+        <h2 class="page-header" id="limfna">Presoterapija - strojna limfna drenaža</h2>
+        <img src="assets/img/limfna.png" style="padding: 5px;" alt="Presoterapija" align="left"/>
 
         <p>Večina maščobe se izloči preko limfnega sistema našega telesa. Zato je po kavitaciji nujno potrebno še
             pospešiti
@@ -92,13 +91,13 @@
         <p>Limfna drenaža je torej zelo primerna metoda za razstrupljanje telesa tudi takrat, ko smo zdravi in nimamo ne
             zdravstvenih in ne kozmetičnih težav.</p>
 
-        <h2 class="page-header">Elektrostimulacija</h2>
+        <h2 class="page-header" id="elektrostim">Elektrostimulacija</h2>
 
         <p>To je odlična metoda za uspešno zmanjševanje celulitnih oblog ter za izboljševanje tonusa kože in mišic.
             Raznoliki programi omogočajo terapijo različnih stanj: za terapijo celulita, za zmanjševanje maščobnih oblog
             (lipoliza), za tonizacijo kože in vensko ter limfno drenažo.</p>
 
-        <h2 class="page-header">Radiofrekvenca - za napetost kože</h2>
+        <h2 class="page-header" id="radiofrekvenca">Radiofrekvenca - za napetost kože</h2>
 
         <p>Radiofrekvenčna terapija omogoča ciljno segrevanje tkiva v usnjici in podkožju, kar povzroči premreženje
             kolagena
@@ -117,8 +116,8 @@
             preprečimo
             ohlapnost tkiva na predelih, kjer smo izvajali kavitacijo.</p>
 
-        <h2 class="page-header">Bodywraping</h2>
-        <img src="assets/img/wraping.png" alt="Bodywraping" align="right"/>
+        <h2 class="page-header" id="bodywrap">Bodywraping</h2>
+        <img src="assets/img/wraping.png" style="padding: 5px;" alt="Bodywraping" align="right"/>
 
         <p>To metodo izberemo pri celulitu (pomarančna koža) za zategovanje mlahavih delov telesa, pri oslabelem z vodo
             nakopičenem tkivu, za toplenje maščob, za prožnost kože po nosečnosti in po ali med shujševalnimi
@@ -132,7 +131,7 @@
             od 8-12 terapij. Body wrapping je odlično dopolnilo drugim tretmajem oblikovanja telesa (kavitacija).</p>
 
         <div class="clearfix"></div>
-        <h2 class="page-header">Infrardeča toplota</h2>
+        <h2 class="page-header" id="infra">Infrardeča toplota</h2>
 
         <p>Segrevanje telesa z infrardečo toploto pospeši izločanje toksinov iz telesa ter zmanjšanje obsega, spodbuja
             procese presnove, jih pospešuje in omejuje razmnoževanje bakterij in virusov. Notranje organe spodbuja k

@@ -32,6 +32,9 @@ Nova kategorija
 <span class='pull-right text-danger cursor' onclick='deleteCategory($new);' data-toggle='tooltip' data-placement='top' title='Odstrani kategorijo'>
                                 <i class='fa fa-times'></i>
                             </span>
+                            <span class='pull-right text-primary cursor' style='margin-right: 10px;' onClick='renameCategory($new, \"Nova kategorija\");' data-toggle='tooltip' data-placement='top' title='Preimenuj kategorijo'>
+<i class='fa fa-pencil'></i>
+</span>
 <span class='pull-right text-success cursor addService' style='margin-right: 10px;' data-toggle='tooltip' data-placement='top' title='Dodaj storitev' data-category-id='$new'>
                                 <i class='fa fa-plus'></i>
                             </span>
@@ -39,7 +42,8 @@ Nova kategorija
 </div>
 <div id='collapse$new' class='panel-collapse collapse' role='tabpanel'>
     <div class='panel-body'>
-    <ul class='list-group' id='list$new'>
+                                <input type='hidden' name='category[$new]' value='Nova kategorija' data-attr-id='$new' data-category-id='$new' \/>
+<ul class='list-group' id='list$new'>
 
     </ul>
     </div>

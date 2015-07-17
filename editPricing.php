@@ -1,4 +1,13 @@
 <?php include_once "./header.php"; ?>
+<?php
+if(empty($_SESSION["user_id"])){
+    $path = $_SERVER['REQUEST_URI'];
+    $file = basename($path);
+    $_SESSION["move_me_to"] = $file;
+    header("Location: login.php");
+    die();
+}
+?>
     <div class="block-flat col-lg-12">
         <h1 class="page-header">Urejanje cenika</h1>
         <?php $categories = Db::queryAll("SELECT * FROM categories ORDER BY id ASC"); ?>
@@ -13,6 +22,9 @@
                             <span class="pull-right text-danger cursor" onclick="deleteCategory(<?= $category["id"]; ?>);" data-toggle="tooltip" data-placement="top" title="Odstrani kategorijo">
                                 <i class="fa fa-times"></i>
                             </span>
+                            <span class="pull-right text-primary cursor" style="margin-right: 10px;" onClick="renameCategory(<?= $category["id"]; ?>, '<?= $category["name"]; ?>');" data-toggle="tooltip" data-placement="top" title="Preimenuj kategorijo">
+                                <i class="fa fa-pencil"></i>
+                            </span>
                             <span class="pull-right text-success cursor addService" style="margin-right: 10px;" data-toggle="tooltip" data-placement="top" title="Dodaj storitev" data-category-id="<?= $category["id"]; ?>">
                                 <i class="fa fa-plus"></i>
                             </span>
@@ -20,6 +32,7 @@
                     </div>
                     <div id="collapse<?= $category["id"] ?>" class="panel-collapse collapse" role="tabpanel">
                         <div class="panel-body">
+                            <input type="hidden" name="category[<?= $category["id"]; ?>]" value="<?= $category["name"]; ?>" data-attr-id="<?= $category["id"]; ?>" data-category-id="<?= $category["id"]; ?>"/>
                             <?php $services = Db::queryAll("SELECT * FROM pricelist WHERE category_id = ? ORDER BY id ASC", $category["id"]); ?>
                             <ul class="list-group" id="list<?= $category["id"]; ?>">
                                 <?php foreach ( $services as $service ) { ?>
@@ -35,7 +48,7 @@
                                         </div>
                                         <br/>
                                         <br/>
-                                        <textarea placeholder="Dodatne opombe" class="form-control" data-attr-id="<?= $service["id"]; ?>" name="notes[<?= $category["id"] ?>][<?= $service["id"] ?>]"><?= $service["note"] ?></textarea>
+                                        <textarea placeholder="Dodatne informacije" class="form-control" data-attr-id="<?= $service["id"]; ?>" name="notes[<?= $category["id"] ?>][<?= $service["id"] ?>]"><?= $service["note"] ?></textarea>
                                         <span class='pull-right cursor' onclick="deleteService(<?= $service["id"]; ?>);"><i class='fa fa-times text-danger'></i></span>
 
                                         <div class="clearfix"></div>
@@ -161,6 +174,15 @@
                     }
                 }
             })
+        }
+
+        function renameCategory(id, name){
+            alertify.prompt('Preimenuj kategorijo: '+name, name,
+                function(evt, value){
+                    $(document).find("input[data-category-id='"+id+"']").val(value);
+                    $(document).find("#panel"+id).find("a").text(value);
+                }
+            );
         }
     </script>
 <?php include_once "./footer.php"; ?>

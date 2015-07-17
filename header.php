@@ -1,4 +1,4 @@
-<!DOCTYLE html>
+<!DOCTYPE html>
 <?php include_once "./core/session.php" ?>
 <html lang="sl">
 <head>
@@ -12,7 +12,7 @@
     <link href="assets/css/main.css" rel="stylesheet" type="text/css"/>
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <script src="./assets/js/jquery-1.11.1.min.js" type="text/javascript"></script>
-    <link href='http://fonts.googleapis.com/css?family=Lato|Roboto&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Dosis|Kaushan+Script&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <header>
@@ -32,6 +32,8 @@
                 <a href="logout.php">Odjava</a>
             <?php } ?>
         </span>
+
+        <div class="clearfix"></div>
     </div>
     <div class="navbar navbar-default">
         <div class="navbar-header text-center">
@@ -58,7 +60,7 @@
                     <a href="pricing.php">Cenik</a>
                 </li>
                 <li>
-                    <a href="work_hours.php">Delovnik</a>
+                    <a href="contact.php#work_hours">Delovnik</a>
                 </li>
                 <li>
                     <a href="contact.php">Kontakt</a>
@@ -67,5 +69,5 @@
         </div>
     </div>
 </header>
-<div class="container">
+<div class="container" style="margin-top: 30px;">
     <div class="row">
