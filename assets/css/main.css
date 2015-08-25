@@ -6367,7 +6367,7 @@ p {
   color: #333333;
 }
 #cookies {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.95);
   color: #f48fb1;
   margin: 0 auto;
   position: fixed;
@@ -6379,6 +6379,17 @@ p {
 }
 .cookie-buttons {
   margin-top: 15px;
+}
+#totop {
+  background: #f48fb1;
+  opacity: .9;
+  color: white;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  padding: 5px 10px;
+  z-index: 99999;
+  cursor: pointer;
 }
 .alertify .ajs-dimmer {
   position: fixed;

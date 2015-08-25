@@ -15,6 +15,15 @@
     <link href='http://fonts.googleapis.com/css?family=Dosis|Kaushan+Script&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
 <body>
+<?php if ( isset($_SESSION["notify"]) ) { ?>
+    <?php $notify = explode("|", $_SESSION["notify"]); ?>
+    <script>
+        $().ready(function () {
+            alertify.<?php echo $notify[0]; ?>("<?php echo $notify[1]; ?>");
+        });
+    </script>
+    <?php unset($_SESSION["notify"]); ?>
+<?php } ?>
 <header>
     <div class="header header-small">
         <span class="header-icons">
@@ -41,9 +50,11 @@
                 <span>MENU</span>
             </button>
             <div class="navbar-brand">
-                <img src="assets/img/logo.png" alt="Logotip" class="img-responsive" style="margin-top: -13px;" width="100"/>
+                <a href="index.php">
+                    <img src="assets/img/logo.png" alt="Logotip" class="img-responsive" style="margin-top: -13px;" width="100"/>
+                </a>
             </div>
-            <p class="slogan navbar-text text-uppercase">... da boste še lepše</p>
+            <span class="slogan navbar-text h4" style="display: block;">... da boste še lepše</span>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-left text-uppercase">

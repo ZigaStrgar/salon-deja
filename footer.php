@@ -23,18 +23,15 @@
         Sob.: Po dogovoru
     </div>
 </footer>
-<div>
-
-</div>
 <div id="totop">
-    <i class="icon icon-angle-left"></i>
+    <i class="fa fa-angle-up fa-2x"></i>
 </div>
 <div id="cookies" style="display: none;">
     Stran uporablja piškote
     <div class="cookie-buttons">
         <span class="btn btn-flat btn-success accept">Sprejmi</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
             class="btn btn-danger btn-flat decline">Zavrni</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
-            href="http://<?= URL; ?>/cookies.php" class="color-info no-hover">Preberi več</a>
+            href="cookies.php" class="color-info no-hover">Preberi več</a>
     </div>
 </div>
 <script src="./assets/js/custom.js" type="text/javascript"></script>

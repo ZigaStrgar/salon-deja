@@ -13,7 +13,7 @@
                 <div role="tabpanel" class="tab-pane active block-flat" id="login">
                     <h1 class="page-header">Prijava</h1>
                     <?php if (!empty($_SESSION["move_me_to"])) { ?>
-                        <div class="col-lg-12 alert alert-danger">
+                        <div class="col-lg-12 alert alert-danger alert-fixed-bottom">
                             Da bi videli to stran, se najprej prijavite!
                         </div>
                     <?php } ?>
@@ -82,7 +82,7 @@
                     <div class="alert alert-warning">
                         Ob kliku na gumb "Ponastavi geslo" se vam bo ponastavilo geslo. Novo geslo boste dobili na e-naslov in ga boste uporabili ob prijavi!
                     </div>
-                    <form action="resetPass.php" method="POST">
+                    <form action="forgotten.php" method="POST" class="ajaxForm">
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-at"></i></span>
                             <input type="email" name="email" class="form-control" placeholder="Vnesite vaš e-naslov" />

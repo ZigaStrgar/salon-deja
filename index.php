@@ -29,23 +29,33 @@
             postopka nanosa so podaljšane trepalnice Xtreme Lashes primerne tudi za tiste, ki običajnih umetnih
             trepalnic ne prenašajo dobro.
         </p>
-
-        <h1 class="page-header action text-center">AKCIJA</h1>
         <?php
         $action = Db::queryOne("SELECT * FROM actions ORDER BY valid DESC LIMIT 1");
         ?>
-        <p>
-            <?= $action["text"]; ?>
-        </p>
-        <small class="text-muted">Akcija velja do: <?= date("d. m. Y", strtotime($action["valid"])) ?></small>
+        <?php if ( ! empty($action) ) { ?>
+            <h1 class="page-header action text-center">AKCIJA</h1>
+            <p>
+                <?= $action["text"]; ?>
+            </p>
+            <small class="text-muted">Akcija velja do: <?= date("d. m. Y", strtotime($action["valid"])) ?></small>
+            <?php if ( ! empty($_SESSION["user_id"]) ) { ?>
+                <br>
+                <a href="editAction.php?id=<?= $action["id"]; ?>">Uredi akcijo</a>
+                <a href="deleteAction.php?id=<?= $action["id"]; ?>">Izbriši akcijo</a>
+            <?php } ?>
+        <?php } ?>
         <h1 class="page-header text-center action">Nudimo vam</h1>
 
         <div class="col-lg-6">
             <ul class="list-group text-center">
-                <li class="list-group-item"><a class="text-default" href="program.php#kavitacija">KAVITACIJA - liposukcija brez noža</a></li>
-                <li class="list-group-item"><a class="text-default" href="program.php#limfna">PRESOTERAPIJA - strojna limfna dranaža</a></li>
-                <li class="list-group-item"><a class="text-default" href="program.php#elektrostim">ELEKTROSTIMULACIJA</a></li>
-                <li class="list-group-item"><a class="text-default" href="program.php#radifrekvenca">RADIOFREKVENCA - za napetost kože</a></li>
+                <li class="list-group-item"><a class="text-default" href="program.php#kavitacija">KAVITACIJA -
+                        liposukcija brez noža</a></li>
+                <li class="list-group-item"><a class="text-default" href="program.php#limfna">PRESOTERAPIJA - strojna
+                        limfna dranaža</a></li>
+                <li class="list-group-item">
+                    <a class="text-default" href="program.php#elektrostim">ELEKTROSTIMULACIJA</a></li>
+                <li class="list-group-item"><a class="text-default" href="program.php#radifrekvenca">RADIOFREKVENCA - za
+                        napetost kože</a></li>
                 <li class="list-group-item"><a class="text-default" href="program.php#bodywrap">BODYWRAPING</a></li>
                 <li class="list-group-item"><a class="text-default" href="program.php#infra">INFRARDEČA TOPLOTA</a></li>
                 <li class="list-group-item"><a class="text-default" href="services.php#pedikura">PEDIKURA</a></li>
@@ -53,12 +63,15 @@
         </div>
         <div class="col-lg-6">
             <ul class="text-center list-group">
-                <li class="list-group-item"><a class="text-default" href="services.php#masaza-stopal">REFLEKSNA MASAŽA STOPAL</a></li>
+                <li class="list-group-item"><a class="text-default" href="services.php#masaza-stopal">REFLEKSNA MASAŽA
+                        STOPAL</a></li>
                 <li class="list-group-item"><a class="text-default" href="services.php#nega-obraza">NEGA OBRAZA</a></li>
                 <li class="list-group-item"><a class="text-default" href="services.php#depilacija">DEPILACIJA</a></li>
-                <li class="list-group-item"><a class="text-default" href="services.php#wax">BRAZILSKA ALI INTIMNA DEPILACIJA</a></li>
+                <li class="list-group-item"><a class="text-default" href="services.php#wax">BRAZILSKA ALI INTIMNA
+                        DEPILACIJA</a></li>
                 <li class="list-group-item"><a class="text-default" href="services.php#masaza">MASAŽA</a></li>
-                <li class="list-group-item"><a class="text-default" href="services.php">DRUGE KOZMETIČNE STORITVE</a></li>
+                <li class="list-group-item"><a class="text-default" href="services.php">DRUGE KOZMETIČNE STORITVE</a>
+                </li>
                 <li class="list-group-item">DARILNI BONI za vaše prijatelje in vaše najbližje</li>
             </ul>
         </div>

@@ -12,7 +12,7 @@
 
         <span class="text-center h2 action text-uppercase" style="display:block;">To dosežemo z izbiro ustreznih kombinacij tehnik za
             preoblikovanje
-            telesa.</span>
+            telesa</span>
 
         <h2 class="page-header" id="kavitacija">Kavitacija - liposukcija brez noža</h2>
         <img src="assets/img/liposukcija.png" style="padding: 5px;" alt="Liposukcija / Kavitacija" align="right"/>

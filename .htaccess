@@ -1,5 +1,5 @@
 IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
-AuthName matura.zigastrgar.com
+AuthName salon-deja.si
 ErrorDocument 404 /404.php
 ErrorDocument 500 /503.php
 ErrorDocument 503 /503.php

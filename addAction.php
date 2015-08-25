@@ -23,6 +23,7 @@ if(empty($_SESSION["user_id"])){
                     <input type="text" class="form-control" name="valid" id="valid"><span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                 </div>
             </div>
+            <input type="hidden" name="clear" value="1">
             <div class="form-group">
                 <input type="submit" class="btn btn-success" value="Dodaj akcijo"/>
             </div>
@@ -41,13 +42,13 @@ if(empty($_SESSION["user_id"])){
         });
         $('textarea').wysihtml5({
             "font-styles": true,
-            "color": true,
+            "color": false,
             "emphasis": true,
             "textAlign": false,
             "lists": true,
             "blockquote": false,
             "link": true,
-            "table": true,
+            "table": false,
             "image": false,
             "video": false,
             "html": false
