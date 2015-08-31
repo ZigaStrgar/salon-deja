@@ -59,6 +59,7 @@
                 <li class="list-group-item"><a class="text-default" href="program.php#bodywrap">BODYWRAPING</a></li>
                 <li class="list-group-item"><a class="text-default" href="program.php#infra">INFRARDEČA TOPLOTA</a></li>
                 <li class="list-group-item"><a class="text-default" href="services.php#pedikura">PEDIKURA</a></li>
+                <li class="list-group-item"><a class="text-default" href="services.php#trepalnice">PODALJŠEVANJE IN ZGOSTITEV TREPALNIC</a></li>
             </ul>
         </div>
         <div class="col-lg-6">

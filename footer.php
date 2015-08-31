@@ -13,14 +13,16 @@
         <h4 class="page-header text-center">Kako do nas</h4>
         <div id="googlemapfooter" style="width: 100%; height: 200px;5"></div>
     </div>
+    <?php
+    $hours = Db::queryAll("SELECT * FROM hours ORDER BY id ASC");
+    ?>
     <div class="col-lg-3 col-md-12 text-center">
         <h4 class="page-header text-center">Delovni čas</h4>
-        Pon.: 12<sup>00</sup> - 20<sup>00</sup><br/>
-        Tor.: 12<sup>00</sup> - 20<sup>00</sup><br/>
-        Sre.: 8<sup>00</sup> - 16<sup>00</sup><br/>
-        Čet.: 12<sup>00</sup> - 20<sup>00</sup><br/>
-        Pet.: 8<sup>00</sup> - 16<sup>00</sup><br/>
-        Sob.: Po dogovoru
+        <?php
+        foreach($hours as $hour):
+            echo $hour["name"].": ".$hour["text"]."<br />";
+        endforeach;
+        ?>
     </div>
 </footer>
 <div id="totop">

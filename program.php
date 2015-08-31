@@ -15,7 +15,7 @@
             telesa</span>
 
         <h2 class="page-header" id="kavitacija">Kavitacija - liposukcija brez noža</h2>
-        <img src="assets/img/liposukcija.png" style="padding: 5px;" alt="Liposukcija / Kavitacija" align="right"/>
+        <img src="assets/img/liposukcija.png" style="padding: 5px;" height="600" alt="Liposukcija / Kavitacija" align="right"/>
 
         <p>Kavitacija je trenutno najbolj uspešen in varen način <b>odstranjevanja celulita in odvečne maščobe v
                 telesu.</b>

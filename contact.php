@@ -36,32 +36,40 @@
                 </span>
                 <a href="mailto:info@salon-deja.si">info@salon-deja.si</a>
             </span>
+            <br/>
+            <br/>
+            <span>
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                    <i class="fa fa-car fa-stack-1x"></i>
+                </span>
+                Brezplačno parkiranje
+            </span>
         </div>
         <div class="col-lg-9 col-xs-12">
             <h1 class="page-header">Kako do nas</h1>
 
             <div id="googlemap" style="width: 100%; height: 400px;"></div>
         </div>
-        <h1 class="page-header" id="work_hours">Delovnik</h1>
+        <?php
+        $hours = Db::queryAll("SELECT * FROM hours ORDER BY id ASC");
+        ?>
+        <h1 class="page-header" id="work_hours">Delovni čas</h1>
         <table class="table-condensed table-bordered table-striped text-center col-xs-12 col-lg-4 col-lg-offset-4">
-            <tr>
-                <td>Pon.: 12<sup>00</sup> - 20<sup>00</sup></td>
-            </tr>
-            <tr>
-                <td>Tor.: 12<sup>00</sup> - 20<sup>00</sup></td>
-            </tr>
-            <tr>
-                <td>Sre.: 8<sup>00</sup> - 16<sup>00</sup></td>
-            </tr>
-            <tr>
-                <td>Čet.: 12<sup>00</sup> - 20<sup>00</sup></td>
-            </tr>
-            <tr>
-                <td>Pet.: 8<sup>00</sup> - 16<sup>00</sup></td>
-            </tr>
-            <tr>
-                <td>Sob.: Po dogovoru</td>
-            </tr>
+            <?php
+            foreach ($hours as $hour) {
+                ?>
+                <tr>
+                    <td>
+                        <?= $hour["name"] ?>
+                    </td>
+                    <td>
+                        <?= $hour["text"] ?>
+                    </td>
+                </tr>
+                <?php
+            }
+            ?>
         </table>
         <div class="clearfix"></div>
     </div>

@@ -86,7 +86,7 @@ function loadmap() {
     map.mapTypes.set('', mapType);
     map.setMapTypeId('');
 
-    var contentString = '<img src="assets/img/logo.png" height="50" />';
+    var contentString = '<img src="assets/img/logo.png" height="50" /><br />Brezplačno parkiranje';
 
     var infowindow = new google.maps.InfoWindow({
         content: contentString
@@ -144,7 +144,7 @@ function contactmap(){
     map.mapTypes.set('', mapType);
     map.setMapTypeId('');
 
-    var contentString = '<img src="assets/img/logo.png" height="50" />';
+    var contentString = '<img src="assets/img/logo.png" height="50" /><br />Brezplačno parkiranje';
 
     var infowindow = new google.maps.InfoWindow({
         content: contentString
