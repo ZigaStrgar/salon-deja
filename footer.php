@@ -18,11 +18,25 @@
     ?>
     <div class="col-lg-3 col-md-12 text-center">
         <h4 class="page-header text-center">Delovni čas</h4>
+        <table class="table-condensed table-bordered table-striped text-center col-xs-12">
         <?php
         foreach($hours as $hour):
-            echo $hour["name"].": ".$hour["text"]."<br />";
+            ?>
+            <tr>
+                <td>
+                    <?= $hour["name"] ?>
+                </td>
+                <td>
+                    <?= $hour["text"] ?>
+                </td>
+            </tr>
+            <?php
         endforeach;
         ?>
+        </table>
+    </div>
+    <div style="margin: 10px 0 -5px;" class="center-block text-center col-xs-12 text-muted">
+        Salon Deja © 2015&nbsp;&nbsp;•&nbsp;&nbsp;Izdelava <a href="http://zigastrgar.com" target="_blank">Žiga Strgar</a>
     </div>
 </footer>
 <div id="totop">
