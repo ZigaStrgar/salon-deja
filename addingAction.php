@@ -7,7 +7,7 @@ if ( isset($_SESSION["user_id"]) ) {
     if ( ! empty($text) && ! empty($_POST["valid"]) ) {
         if ( Db::insert("actions", ["text" => $text, "valid" => date("y-m-d", strtotime($_POST["valid"]))]) == 1 ) {
             $_SESSION["notify"] = "success|Akcija uspešno dodana!";
-            header("Location: index.php");
+            echo "redirect|index.php";
         } else {
             echo "error|Napaka podatkovne baze!";
         }

@@ -1,6 +1,6 @@
 <?php include_once "header.php"; ?>
     <div class="block-flat">
-        <h1 class="page-header">Program hujšanja</h1>
+        <h1 class="page-header">Program hujšanja in preoblikovanja telesa</h1>
         <span class="text-center h4" style="display:block;">V našem kozmetičnem salonu smo za naše stranke pripravili tudi programe za učinkovito
             preoblikovanje telesa. Z vsako stranko se pogovorimo in izberemo njej ustrezen program.</span>
 

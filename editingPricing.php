@@ -36,6 +36,7 @@ if ( isset($_SESSION["user_id"]) ) {
     }
 
     if ( $error != 1 ) {
+        Db::query("UPDATE pricelist SET last_change = ?", date("y-m-d"));
         echo "success|Cenik uspešno urejen!";
     } else {
         echo "error|Napaka pri urejanju cenika!";

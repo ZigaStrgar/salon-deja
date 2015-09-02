@@ -1,6 +1,6 @@
 <?php include_once "./header.php"; ?>
 <div class="block-flat">
-    <h1 class="page-header action">
+    <h1 class="page-header">
         O nas
     </h1>
     <div class="h3">

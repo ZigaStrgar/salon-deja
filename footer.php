@@ -11,6 +11,7 @@
     </div>
     <div class="col-lg-6 col-md-12">
         <h4 class="page-header text-center">Kako do nas</h4>
+
         <div id="googlemapfooter" style="width: 100%; height: 200px;"></div>
     </div>
     <?php
@@ -19,24 +20,25 @@
     <div class="col-lg-3 col-md-12 text-center">
         <h4 class="page-header text-center">Delovni čas</h4>
         <table class="table-condensed table-bordered table-striped text-center col-xs-12">
-        <?php
-        foreach($hours as $hour):
-            ?>
-            <tr>
-                <td>
-                    <?= $hour["name"] ?>
-                </td>
-                <td>
-                    <?= $hour["text"] ?>
-                </td>
-            </tr>
             <?php
-        endforeach;
-        ?>
+            foreach ($hours as $hour):
+                ?>
+                <tr>
+                    <td>
+                        <?= $hour["name"] ?>
+                    </td>
+                    <td>
+                        <?= $hour["text"] ?>
+                    </td>
+                </tr>
+                <?php
+            endforeach;
+            ?>
         </table>
     </div>
     <div style="margin: 10px 0 -5px;" class="center-block text-center col-xs-12 text-muted">
-        Salon Deja © 2015&nbsp;&nbsp;•&nbsp;&nbsp;Izdelava <a href="http://zigastrgar.com" target="_blank">Žiga Strgar</a>
+        Salon Deja © 2015&nbsp;&nbsp;•&nbsp;&nbsp;<a href="cookies.php">Piškoti</a>&nbsp;&nbsp;•&nbsp;&nbsp;Izdelava <a href="http://zigastrgar.com" target="_blank">Žiga
+            Strgar</a>
     </div>
 </footer>
 <div id="totop">
@@ -54,7 +56,30 @@
 <script async src="./assets/js/bootstrap.min.js" type="text/javascript"></script>
 <script async src="./vendor/alertify/alertify.min.js" type="text/javascript"></script>
 <script src="./vendor/sticky/jquery.sticky.min.js" type="text/javascript"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCg87OoJVwps11kXbw0QCTSac7DtKWDIHM&callback=loadmap">
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCg87OoJVwps11kXbw0QCTSac7DtKWDIHM&callback=loadmap">
+</script>
+<script>
+    $(document).ready(function () {
+        if (localStorage.getItem("cookies") !== null) {
+            if (localStorage.getItem("cookies") == 1) {
+                (function (i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r;
+                    i[r] = i[r] || function () {
+                            (i[r].q = i[r].q || []).push(arguments)
+                        }, i[r].l = 1 * new Date();
+                    a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                    a.async = 1;
+                    a.src = g;
+                    m.parentNode.insertBefore(a, m)
+                })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+                ga('create', 'UA-67063382-1', 'auto');
+                ga('send', 'pageview');
+            }
+        }
+    }
 </script>
 </body>
 </html>

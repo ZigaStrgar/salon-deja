@@ -31,7 +31,7 @@
             trepalnic ne prenašajo dobro.
         </p>
         <?php
-        $action = Db::queryOne("SELECT * FROM actions ORDER BY valid DESC LIMIT 1");
+        $action = Db::queryOne("SELECT * FROM actions WHERE valid >= ? ORDER BY valid DESC LIMIT 1", date("Y-m-d"));
         ?>
         <?php if ( ! empty($action) ) { ?>
             <h1 class="page-header action text-center">AKCIJA</h1>

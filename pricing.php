@@ -1,6 +1,7 @@
 <?php include_once "header.php"; ?>
 <?php
 $categories = Db::queryAll("SELECT * FROM categories ORDER BY id ASC");
+$lastChange = Db::querySingle("SELECT last_change FROM pricelist LIMIT 1");
 ?>
     <div class="block-flat">
         <h1 class="page-header">Cenik</h1>
@@ -30,5 +31,6 @@ $categories = Db::queryAll("SELECT * FROM categories ORDER BY id ASC");
             </table>
             <div class="clearfix"></div>
         <?php } ?>
+        <span class="help-block">Cenik velja od: <?= date("d. m. Y", strtotime($lastChange)) ?></span>
     </div>
 <?php include_once "footer.php"; ?>
