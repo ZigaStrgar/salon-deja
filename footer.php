@@ -1,6 +1,6 @@
 </div>
 </div>
-<footer class="container" style="margin-bottom: 15px; margin-top: -40px;">
+<footer class="container" style="padding-bottom: 15px; margin-top: -40px;">
     <div class="col-lg-3 col-md-12 text-center">
         <h4 class="page-header text-center">Kontakt</h4>
         Kozmetični salon Deja <br/>
@@ -11,7 +11,7 @@
     </div>
     <div class="col-lg-6 col-md-12">
         <h4 class="page-header text-center">Kako do nas</h4>
-        <div id="googlemapfooter" style="width: 100%; height: 200px;5"></div>
+        <div id="googlemapfooter" style="width: 100%; height: 200px;"></div>
     </div>
     <?php
     $hours = Db::queryAll("SELECT * FROM hours ORDER BY id ASC");
@@ -36,23 +36,11 @@
             href="cookies.php" class="color-info no-hover">Preberi več</a>
     </div>
 </div>
-<script src="./assets/js/custom.js" type="text/javascript"></script>
-<script src="./assets/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="./vendor/alertify/alertify.js" type="text/javascript"></script>
-<script src="./vendor/sticky/jquery.sticky.js" type="text/javascript"></script>
-<script>
-    function loadScript() {
-        var script = document.createElement('script');
-        script.type = 'text/javascript';
-        script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp' +
-        '&signed_in=true&callback=loadmap';
-        document.body.appendChild(script);
-    }
-
-    window.onload = loadScript;
-    $(document).ready(function () {
-        $(".navbar").sticky({topSpacing: 0});
-    });
+<script src="./assets/js/custom.min.js" type="text/javascript"></script>
+<script async src="./assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script async src="./vendor/alertify/alertify.min.js" type="text/javascript"></script>
+<script src="./vendor/sticky/jquery.sticky.min.js" type="text/javascript"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCg87OoJVwps11kXbw0QCTSac7DtKWDIHM&callback=loadmap">
 </script>
 </body>
 </html>

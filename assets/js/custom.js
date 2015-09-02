@@ -110,12 +110,12 @@ function loadmap() {
 
     infowindow.open(map, companyMarker);
 
-    if(location.href.indexOf("contact.php") !== -1){
+    if (location.href.indexOf("contact.php") !== -1) {
         contactmap();
     }
 }
 
-function contactmap(){
+function contactmap() {
     var stylez = [
         {
             featureType: "all",
@@ -202,10 +202,10 @@ $(document).ready(function () {
 $(document).ready(function () {
     if (localStorage.getItem("cookies") === null) {
         $("#cookies").show();
-        $("footer").css({"margin-bottom" : "100px"});
+        $("footer").css({"margin-bottom": "100px"});
     } else {
         $("#cookies").hide();
-        $("footer").css({"margin-bottom" : "0px"});
+        $("footer").css({"margin-bottom": "0px"});
     }
 
     $(document).on("click", ".accept", function () {
@@ -214,7 +214,7 @@ $(document).ready(function () {
         $(".state2").show();
         localStorage.setItem("cookies", "1");
         $(".cookie-state").html("<span class='color-success'>Sprejeli</span>");
-        $("footer").css({"margin-bottom" : "0px"});
+        $("footer").css({"margin-bottom": "0px"});
     });
 
     $(document).on("click", ".decline", function () {
@@ -223,7 +223,7 @@ $(document).ready(function () {
         $(".state2").show();
         localStorage.setItem("cookies", "0");
         $(".cookie-state").html("<span class='color-danger'>Zavrnili</span>");
-        $("footer").css({"margin-bottom" : "0px"});
+        $("footer").css({"margin-bottom": "0px"});
     });
 
     $(document).on("click", "#reset", function () {
@@ -231,7 +231,15 @@ $(document).ready(function () {
         $(".state").hide();
         $(".state2").hide();
         $("#cookies").show();
-        $("footer").css({"margin-bottom" : "100px"});
+        $("footer").css({"margin-bottom": "100px"});
     });
 });
 //END COOKIES
+
+//DYNAMIC TITLE
+$(document).ready(function () {
+    var company = "Salon Deja";
+    var page = $("h1:first").text();
+    $("title").text(company + " - " + page);
+});
+//END DYNAMIC TITLE

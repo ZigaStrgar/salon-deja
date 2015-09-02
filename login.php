@@ -88,7 +88,7 @@
                             <input type="email" name="email" class="form-control" placeholder="Vnesite vaš e-naslov" />
                         </div>
                         <br />
-                        <input type="submit" name="submit" value="Ponastavi geslo" class="btn btn-flat btn-success" />
+                        <input type="submit" name="submit" value="Ponastavi geslo" class="btn btn-flat btn-brand" />
                     </form>
                 </div>
             </div>

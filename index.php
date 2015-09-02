@@ -1,5 +1,6 @@
 <?php include_once "header.php"; ?>
     <div class="block-flat">
+        <h1 class="hidden">Domača stran</h1>
         <img src="./assets/img/naslovna.jpg" alt="Naslovna slika" class="img-responsive" style="margin: 0 auto;"/>
 
         <h3 class="text-center action">Prepustite se razvajanju v Kozmetičnem salonu Deja, da se boste počutile še lepše

@@ -9,11 +9,9 @@
     <meta name="description" content="Prepustite se razvajanju v Kozmetičnem salonu Deja, da se boste počutile še lepše in samozavestnejše">
     <meta name="author" content="Žiga Strgar">
     <meta name="robots" content="index,follow">
-    <meta name="keywords" content="salon, kozmetika, deja, salon deja, razvajanje, kozmetični salon, kozmetični salon Maribor, hujšanje, program hujšanja, preoblikovanje telesa, kozmetični salon Deja, kavitacija, presoterapija, elektrosimulacija, radiofrekvenca, pedikura, masaša, masaže, nega obraza, depilacija, depiliranje, intimna depilacija, brazilska depilacija, kozmetične storitve, darilni boni, ">
+    <meta name="keywords" content="salon, kozmetika, deja, salon deja, razvajanje, kozmetični salon, kozmetični salon Maribor, hujšanje, program hujšanja, preoblikovanje telesa, kozmetični salon Deja, kavitacija, presoterapija, elektrosimulacija, radiofrekvenca, pedikura, masaša, masaže, nega obraza, depilacija, depiliranje, intimna depilacija, brazilska depilacija, kozmetične storitve, darilni boni">
     <link href="assets/css/main.css" rel="stylesheet" type="text/css"/>
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <script src="./assets/js/jquery-1.11.1.min.js" type="text/javascript"></script>
-    <link href='http://fonts.googleapis.com/css?family=Dosis|Kaushan+Script&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <?php if ( isset($_SESSION["notify"]) ) { ?>
@@ -75,6 +73,9 @@
                 </li>
                 <li>
                     <a href="contact.php#work_hours">Delovni čas</a>
+                </li>
+                <li>
+                    <a href="about.php">O nas</a>
                 </li>
                 <li>
                     <a href="contact.php">Kontakt</a>

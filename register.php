@@ -5,6 +5,9 @@ $email = $_POST["email"];
 $password = $_POST["password"];
 $password2 = $_POST["password2"];
 
+echo "error|Registracija je trenutno onemogočena!";
+die();
+
 if ( ! empty($email) && ! empty($password) && ! empty($password2) ) {
     if ( is_email($email) ) {
         if ( $password == $password2 ) {
