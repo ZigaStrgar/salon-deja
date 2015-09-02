@@ -37,7 +37,8 @@
         </table>
     </div>
     <div style="margin: 10px 0 -5px;" class="center-block text-center col-xs-12 text-muted">
-        Salon Deja © 2015&nbsp;&nbsp;•&nbsp;&nbsp;<a href="cookies.php">Piškoti</a>&nbsp;&nbsp;•&nbsp;&nbsp;Izdelava <a href="http://zigastrgar.com" target="_blank">Žiga
+        Salon Deja © 2015&nbsp;&nbsp;•&nbsp;&nbsp;<a href="cookies.php">Piškoti</a>&nbsp;&nbsp;•&nbsp;&nbsp;Izdelava <a
+            href="http://zigastrgar.com" target="_blank">Žiga
             Strgar</a>
     </div>
 </footer>
@@ -79,7 +80,10 @@
                 ga('send', 'pageview');
             }
         }
-    }
+    });
+    $(document).ready(function () {
+        $(".navbar").sticky({topSpacing: 0});
+    });
 </script>
 </body>
 </html>

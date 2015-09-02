@@ -5,12 +5,16 @@ $lastChange = Db::querySingle("SELECT last_change FROM pricelist LIMIT 1");
 ?>
     <div class="block-flat">
         <h1 class="page-header">Cenik</h1>
-        <?php foreach ( $categories as $category ) { ?>
-            <h3 class="page-header text-center action"><?= $category["name"]; ?></h3>
+        <?php foreach ($categories as $category) { ?>
+            <a href="#<?= createAlias($category["name"]); ?>" class="label label-action" style="margin: 5px;"><?= $category["name"] ?></a>
+        <?php } ?>
+        <?php foreach ($categories as $category) { ?>
+            <h3 id="<?= createAlias($category["name"]) ?>"
+                class="page-header text-center action"><?= $category["name"]; ?></h3>
             <table class="table col-lg-8 col-xs-12 table-condensed table-bordered table-striped">
                 <?php
                 $services = Db::queryAll("SELECT * FROM pricelist WHERE category_id = ? ORDER BY id ASC", $category["id"]);
-                foreach ( $services as $service ) {
+                foreach ($services as $service) {
                     ?>
                     <tr>
                         <td class="col-xs-10">
@@ -20,7 +24,7 @@ $lastChange = Db::querySingle("SELECT last_change FROM pricelist LIMIT 1");
                             <?= formatPrice($service["price"]); ?>
                         </td>
                     </tr>
-                    <?php if ( ! empty($service["note"]) ) { ?>
+                    <?php if (!empty($service["note"])) { ?>
                         <tr>
                             <td colspan="2" class="h6 text-muted">
                                 <?= $service["note"]; ?>

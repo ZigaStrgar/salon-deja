@@ -94,3 +94,13 @@ function randomPassword() {
     }
     return implode($pass);
 }
+
+/**
+ * Spremeni string v računlniku prijazno obliko
+ *
+ * @param $string
+ * @return mixed
+ */
+function createAlias($string){
+    return str_replace(" ", "-", str_replace("-", "", str_replace("ć", "c", str_replace("č", "c", str_replace("š", "s", str_replace("ž", "z", strtolower($string)))))));
+}
