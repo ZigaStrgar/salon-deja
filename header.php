@@ -10,6 +10,8 @@
     <meta name="author" content="Žiga Strgar">
     <meta name="robots" content="index,follow">
     <meta name="keywords" content="salon, kozmetika, deja, salon deja, razvajanje, kozmetični salon, kozmetični salon Maribor, hujšanje, program hujšanja, preoblikovanje telesa, kozmetični salon Deja, kavitacija, presoterapija, elektrosimulacija, radiofrekvenca, pedikura, masaša, masaže, nega obraza, depilacija, depiliranje, intimna depilacija, brazilska depilacija, kozmetične storitve, darilni boni">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
     <link href="assets/css/main.css" rel="stylesheet" type="text/css"/>
     <script src="./assets/js/jquery-1.11.1.min.js" type="text/javascript"></script>
 </head>
