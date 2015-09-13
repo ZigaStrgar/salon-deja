@@ -71,6 +71,9 @@
                     <a href="program.php">Programi hujšanja in preoblikovanja telesa</a>
                 </li>
                 <li>
+                    <a href="packages.php">Paketi ugodnosti</a>
+                </li>
+                <li>
                     <a href="pricing.php">Cenik</a>
                 </li>
                 <li>

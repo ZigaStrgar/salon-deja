@@ -196,10 +196,7 @@
                                         "<input type='hidden'/>" +
                                         "<input placeholder='http://' class='bootstrap-wysihtml5-insert-image-url form-control'>" +
                                         "<div class='input-group-btn'>" +
-                                            "<button type='button' class='btn btn-default dropdown-toggle' data-toggle='dropdown'>" + locale.image.fromUrl + " <span class='caret'></span></button>" +
-                                            "<ul class='dropdown-menu dropdown-menu-right' role='menu' style='right:0;left:auto;'>" +
-                                                "<li><a href='#' class='bootstrap-wysihtml5-insert-image-local'>" + locale.image.fromComputer + "</a></li>" +
-                                            "</ul>" +
+                                            "<button type='button' class='btn btn-default dropdown-toggle' data-toggle='dropdown'>" + locale.image.fromUrl + "</button>" +
                                         "</div>" +
                                     "</div>" +
                                     "<br/>" +

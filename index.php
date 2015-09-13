@@ -46,7 +46,6 @@
             <?php } ?>
         <?php } ?>
         <h1 class="page-header text-center action">Nudimo vam</h1>
-
         <div class="col-lg-6">
             <ul class="list-group text-center">
                 <li class="list-group-item"><a class="text-default" href="program.php#kavitacija">KAVITACIJA -

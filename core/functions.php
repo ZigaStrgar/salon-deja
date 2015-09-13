@@ -41,7 +41,7 @@ function formatPrice($price){
  * @return string
  */
 function fullCheck($string){
-    return strip_tags(stripAttributes($string), "<p><li><ol><ul><h1><h2><h3><h4><h5><h6><span><b><u><i><strong>");
+    return strip_tags($string, "<p><li><ol><ul><h1><h2><h3><h4><h5><h6><span><b><u><i><strong><img>");
 }
 
 /**

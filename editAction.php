@@ -31,12 +31,42 @@ $action = Db::queryOne("SELECT * FROM actions WHERE id = ?", $id);
             <input type="submit" class="btn btn-success" value="Uredi akcijo"/>
         </div>
     </form>
+
+    <h1 class="page-header">Nalaganje slike</h1>
+
+    <form method="POST" action="" id="ajaxF">
+        <div class="fileinput fileinput-new input-group" data-provides="fileinput">
+            <div class="form-control" data-trigger="fileinput"><i class="glyphicon glyphicon-file fileinput-exists"></i> <span class="fileinput-filename"></span></div>
+            <span class="input-group-addon btn btn-default btn-file"><span class="fileinput-new">Izberi sliko</span><span class="fileinput-exists">Spremeni</span><input type="file" name="image"></span>
+            <a href="#" class="input-group-addon btn btn-default fileinput-exists" data-dismiss="fileinput">Odstrani</a>
+        </div>
+        <br>
+        <div id="result"></div>
+        <br>
+        <span onclick="addimage();" class="btn btn-success cursor">Naloži sliko</span>
+    </form>
 </div>
 <script src="./vendor/datepicker/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
 <script src="./vendor/datepicker/locales/bootstrap-datepicker.sl.min.js" type="text/javascript"></script>
 <script src="./vendor/wysihtml/wysihtml5-toolbar.min.js"></script>
 <script src="./vendor/wysihtml/bootstrap3-wysihtml5.js"></script>
+<script src="./assets/js/jasny-bootstrap.min.js"></script>
 <script>
+    function addimage(){
+        var formData = new FormData($("form#ajaxF")[0]);
+        $.ajax({
+            url: "uploadImage.php",
+            type: "POST",
+            data: formData,
+            async: false,
+            success: function (msg) {
+                $("#result").html("Povezava do slike: "+ msg);
+            },
+            cache: false,
+            contentType: false,
+            processData: false
+        });
+    }
     $('.input-group.date').datepicker({
         language: "sl",
         startDate: "<?= date("m/d/Y"); ?>",
@@ -52,7 +82,7 @@ $action = Db::queryOne("SELECT * FROM actions WHERE id = ?", $id);
         "blockquote": false,
         "link": true,
         "table": false,
-        "image": false,
+        "image": true,
         "video": false,
         "html": false
     });
