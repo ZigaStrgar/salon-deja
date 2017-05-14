@@ -41,20 +41,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="masaza-stopal">
-                <div class="box">
-                    <img src="./assets/img/masaza-stopal.jpg" alt="Masaža stoapl" class="box-icon"/>
-
-                    <div class="info">
-                        <h4 class="text-center">Masaža stopal</h4>
-
-                        <p>Refleksna masaža stopal je zdravilska metoda, s katero aktiviramo zdravilne moči telesa. Pri
-                            izvajanju terapevt zazna energetske blokade. Refleksoterapija je odlična metoda predvsem v
-                            preventivi. S pritiskom na refleksne cone sprožimo čiščenje zastalih toksinov v telesu, s
-                            čim sprožimo čiščenje telesa.</p>
-                    </div>
-                </div>
-            </div>
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="depilacija">
                 <div class="box">
                     <img src="./assets/img/depilacija.jpg" alt="Depilacija" class="box-icon"/>
@@ -101,31 +87,10 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="trepalnice">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="afrodita">
                 <div class="box">
-                    <img src="./assets/img/xtreme.jpg" alt="Maloprodaja kozmetike Afrodita" class="box-icon"/>
-
-                    <div class="info">
-                        <h4 class="text-center">Podaljševanje in zgostitev trepalnic</h4>
-                        <p>
-                            Xtreme Lashes je revolucionaren način podaljševanja trepalnic, s katerim si boste na popolnoma varen in
-                            zdravju popolnoma neškodljiv način zagotovili daljše, gostejše in privlačnejše trepalnice. Na vaše
-                            trepalnice se nanašajo ročno, in sicer na vsako trepalnico posebej, kar zagotavlja vrhunsko kvaliteto,
-                            naraven videz in lahkoten občutek.
-                        </p>
-                        <p>
-                            Xtreme Lashes stilist uporablja le visoko kakovostne materiale, ki so zdravju 100 % prijazni. Zaradi
-                            postopka nanosa so podaljšane trepalnice Xtreme Lashes primerne tudi za tiste, ki običajnih umetnih
-                            trepalnic ne prenašajo dobro.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" id="afrodita">
-                <div class="box">
-                    <img src="./assets/img/kozmetika_afrodita.jpg" alt="Maloprodaja kozmetike Afrodita" class="box-icon"/>
+                    <img src="./assets/img/kozmetika_afrodita.jpg" alt="Maloprodaja kozmetike Afrodita"
+                         class="box-icon"/>
 
                     <div class="info">
                         <h4 class="text-center">Maloprodaja kozmetike Afrodita</h4>

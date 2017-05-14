@@ -20,7 +20,7 @@ if ( isset($_SESSION["user_id"]) ) {
     }
 
     if ( $error == 2 ) {
-        echo "error|Napka pri urejanju kategorije cenika!";
+        echo "error|Napaka pri urejanju kategorije cenika!";
         die();
     }
 

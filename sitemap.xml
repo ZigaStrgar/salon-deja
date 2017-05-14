@@ -5,37 +5,47 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>http://zigastrgar.com/salon-deja/index.php</loc>
+        <loc>http://salon-deja.si/index.php</loc>
         <changefreq>monthly</changefreq>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>http://zigastrgar.com/salon-deja/login.php</loc>
+        <loc>http://salon-deja.si/login.php</loc>
         <changefreq>monthly</changefreq>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>http://zigastrgar.com/salon-deja/services.php</loc>
+        <loc>http://salon-deja.si/packages.php</loc>
         <changefreq>monthly</changefreq>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>http://zigastrgar.com/salon-deja/program.php</loc>
+        <loc>http://salon-deja.si/about.php</loc>
         <changefreq>monthly</changefreq>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>http://zigastrgar.com/salon-deja/pricing.php</loc>
+        <loc>http://salon-deja.si/services.php</loc>
         <changefreq>monthly</changefreq>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>http://zigastrgar.com/salon-deja/contact.php</loc>
+        <loc>http://salon-deja.si/program.php</loc>
         <changefreq>monthly</changefreq>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>http://zigastrgar.com/salon-deja/cookies.php</loc>
+        <loc>http://salon-deja.si/pricing.php</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://salon-deja.si/contact.php</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://salon-deja.si/cookies.php</loc>
         <changefreq>monthly</changefreq>
         <priority>0.80</priority>
     </url>

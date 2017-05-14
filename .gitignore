@@ -1,7 +1,2 @@
 .idea
-node_modules
-gulpfile.js
-*.sql
-*.zip
-*.rar
-src
+core/database.php

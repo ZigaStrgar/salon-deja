@@ -1,6 +1,6 @@
 <?php include_once "header.php"; ?>
     <div class="block-flat">
-        <h1 class="page-header">Program hujšanja in preoblikovanja telesa</h1>
+        <h1 class="page-header">Programi preoblikovanja telesa</h1>
         <span class="text-center h4" style="display:block;">V našem kozmetičnem salonu smo za naše stranke pripravili tudi programe za učinkovito
             preoblikovanje telesa. Z vsako stranko se pogovorimo in izberemo njej ustrezen program.</span>
 
@@ -146,5 +146,31 @@
         <p>V našem salonu uporabljamo infrardečo toploto kot samostojni tretma, najpogosteje pa kot dopolnilni tretma
             pri
             oblikovanju telesa.</p>
+
+        <div class="clearfix"></div>
+        <h2 class="page-header" id="elektrolipoliza">Elektrolipoliza</h2>
+        <p>Elektrolipoliza je električno-terapevtska metoda, pri kateri se razgradi maščobno tkivo in celulit, hkrati pa mišicam daje tonus in spodbuja mikrocirkulacijo. Mišična aktivnost se doseže tako, da postavimo elektrode na problematične, tretirane dele telesa oziroma na maščobno tkivo in celulit.
+        </p>
+        <h3>Prednosti elektrolipolize:</h3>
+        <ul>
+            <li>
+                Izglubljanje obsega telesa
+            </li>
+            <li>Anticelulitne terapije</li>
+            <li>Izboljšavanje napetosti kože (tonusa)</li>
+            <li>Oblikovanje telesa</li>
+        </ul>
+        <p>Tretmaji so priporočljivi 2-3x na teden!</p>
+        <h3>Kontraindikacije:</h3>
+        <ul>
+            <li>Oseve, ki imajo vgrajen srčni spodbujevalnik</li>
+            <li>Močna vnetja in vročična stanja</li>
+            <li>Kovinski vsadki</li>
+            <li>Nosečnost</li>
+            <li>Prve tri dni menstrualnega cikla</li>
+            <li>Tromboza ali krčne žile</li>
+            <li>Hipostezija (zmanjša občutek za dotik)</li>
+            <li>Kardio motnje ali težave s kožo</li>
+        </ul>
     </div>
 <?php include_once "footer.php"; ?>

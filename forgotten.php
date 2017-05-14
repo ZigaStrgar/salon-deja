@@ -14,7 +14,7 @@ if ( ! empty($mail) ) {
             $subject = "Novo geslo";
             $message = "Vaše novo geslo za spletno mesto www.salon-deja.si je: ".$pass;
             if(mb_send_mail($address, $subject, $message, $header)){
-                Db::query("UPDATE users SET password_reseted = ?, password_reset = 1 WHERE email = ?",password_hash($pass, PASSWORD_DEFAULT), $mail);
+                Db::query("UPDATE users SET password_reseted = ?, password_reset = 1 WHERE email = ?",sha1($pass), $mail);
                 echo "success|Vaše novo geslo je bilo poslano na e-naslov!";
             } else {
                 echo "error|Pošiljanje ni uspelo!";

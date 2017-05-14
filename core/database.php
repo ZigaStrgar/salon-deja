@@ -1,3 +1,3 @@
 <?php
 include_once './core/db.php';
-Db::connect('localhost', 'zigastrg_deja', 'zigastrg_deja', 'deja123');
+Db::connect('localhost', 'simakdoo', 'simakdoo', 'zHKKpZ');

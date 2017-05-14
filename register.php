@@ -8,12 +8,12 @@ $password2 = $_POST["password2"];
 echo "error|Registracija je trenutno onemogočena!";
 die();
 
-if ( ! empty($email) && ! empty($password) && ! empty($password2) ) {
-    if ( is_email($email) ) {
-        if ( $password == $password2 ) {
-            if (Db::insert("users", array("email" => $email, "password" => password_hash($password, PASSWORD_DEFAULT))) == 1) {
+if (!empty($email) && !empty($password) && !empty($password2)) {
+    if (is_email($email)) {
+        if ($password == $password2) {
+            if (Db::insert("users", array("email" => $email, "password" => sha1($password))) == 1) {
                 echo "redirect|login.php";
-            } else if ( Db::insert("users", array("email" => $email, "password" => password_hash($password, PASSWORD_DEFAULT))) == 23000 ) {
+            } else if (Db::insert("users", array("email" => $email, "password" => sha1($password))) == 23000) {
                 echo "error|Uporabnik s tem e-poštnim naslovom že obstaja!";
             } else {
                 echo "error|Napaka podatkovne baze!";
