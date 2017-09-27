@@ -7,7 +7,7 @@
         Marca 2012 smo se odločili odpreti vrata kozmetičnega salona in Vam ponuditi prijetno okolje za popolno razvajanje po dostopnih cenah. Naša ponudba je široka in se prilagaja željam posameznika.
         <br/>
         <br/>
-        <img src="./assets/img/IMG_0087.JPG" class="img-responsive center-block" style="max-width: 600px;" alt="Notranjost salona">
+        <img src="./assets/img/salon.jpg" class="img-responsive center-block" style="max-width: 600px;" alt="Notranjost salona">
     </div>
     <br>
     <br>
