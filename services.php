@@ -79,11 +79,94 @@
                     <div class="info">
                         <h4 class="text-center">Masaža</h4>
 
-                        <p>Masaža je eden najlažjih načinov pridobivanja in ohranjanja zdravja. Vsi jo nenamerno
-                            uporabljamo v vsakdanjem življenju – ob pritiskih senc, ko nas boli glava; glajenje gubic na
-                            čelu ob nanosu kreme, ... V našem salonu strankam nudimo klasično masažo telesa in obraza.
-                            Masaža obraza se izvaja tudi v sklopu nege obraza in dekolteja. Za masažo uporabljamo olja
-                            kozmetike Afrodita.</p>
+                        <p>Fizično delovanje masaže zajema skoraj vsa tkiva. Klasična masaža telesa ne vpliva samo na
+                            izboljšanje <b>toka krvi in limfe</b>, ampak posredno zelo ugodno vpliva na <b>živčevje</b>,
+                            predvsem na
+                            vegetativni živčni sistem. Masaža deluje še na <b>presnovo</b>, kar se kaže v boljši izrabi
+                            hrane,
+                            boljši prebavi in <b>izločanju</b> prekomerne <b>vode</b> iz telesa.</p>
+
+                        <h3 class="text-left h3">Izboljšana prekrvavitev</h3>
+                        <p>Glavni učinek masaže je izboljšana <b>prekrvavitev</b> ter boljša oskrbljenost z limfo, kar
+                            je
+                            osnova za izboljšanje presnove. To je posledica refleksnega širjenja malih in manjših
+                            arterij in mehanično pospešenega odplavljanja krvi v venoznem obtoku.</p>
+                        <p>Pospešitev in povečanje krvnega obtoka je refleksni odgovor na dražljaj zaradi stiskanja in
+                            popuščanja, in zaradi medsebojnega dotikanja notranjih sten krvnih žil pri masaži. Boljšo
+                            prekrvavitev znatno podpira tudi razširjanje krvnih žil, ki ga zaradi trenja povzroča
+                            nastajajoča toplota.</p>
+
+                        <h3 class="text-left h3">Izboljšanje presnove</h3>
+                        <p>Najbolj viden je <b>učinek masaže</b> na koži. <b>Izboljšanje presnove</b> in kožnega dihanja
+                            dosežemo
+                            predvsem mehanično z odstranitvijo površinskih, mrtvih roževinastih slojev in lusk, kakor
+                            tudi izločkov znojnih in lojnih žlez. Z masažo omehčamo tudi podkožno celičje in zmajšujemo
+                            možnost zlepljenja kože s podlago. Prekomerno nabiranje tekočine in tolšče, razne zatrdline
+                            in vozlaste spremembe ali celo brazgotine, z ustrezno masažo občutno zmanjšamo.</p>
+                        <h3 class="text-left h3">Izboljšanje krvne slike</h3>
+                        <p>Omeniti je potrebno še izboljšanje krvne slike, <b>znižanje</b> utripa, <b>krvnega
+                                pritiska</b>, krvnega
+                            sladkorja, znižanje količine kisline in povečanje alkalnih rezerv, važnih za vezavo odvečne
+                            mlečne kisline.</p>
+                        <h3 class="text-left h3">Učinek masaže na mišičevju</h3>
+                        <p>Učinek masaže pa je najtrajnejši na mišičevju. Predvsem gre za izboljšanje prekrvavljenosti
+                            zaradi boljšega <b>dovajanja kisika</b>, grozdnega sladkorja, drugih potrebnih energetskih
+                            in za
+                            presnovo mišic važnih snovi ter zaradi hitrejšega odvajanja presnovkov, predvsem tistih, ki
+                            povzročajo utrujenost (mlečna kislina). Prekrvavljenost se lahko poveča do osemkratno.</p>
+                        <p>Važni učinek je tudi omehčanje in raztegnitev posameznih mišičnih vlaken in <b>odstranitev
+                                mišičnih zatrdlin</b>, ki jih povzročajo motnje v lokalni presnovi in previsok,
+                            predolgotrajen
+                            mišični napon. To povzroča zmanjšanje sposobnosti relaksacije in nagnjenje h krčem.</p>
+                        <p>Masaža sklepov in vezi pa je zlasti pomembna, ker pospešuje cirkulacijo limfe in povečuje
+                            izločanje sklepne mazi ter tako sklepe ohranja prožne in gibljive.</p>
+                        <p>Poleg vsega naštetega pa redna masaža ohranja in dviguje telesno vitalnost in zmanjšuje
+                            podvrženost poškodbam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="diamantni_piling">
+                <div class="box">
+                    <img src="./assets/img/diam_piling1.jpg" alt="diamantni_piling"
+                         class="box-icon"/>
+                    <div class="info">
+                        <h4 class="text-center">Diamantni piling</h4>
+                        <p>Diamantni piling je odgovor za mehko, sijočo in gladko kožo!
+                            Je učinkovit v odstranjevanju gubic okoli oči, starostnih peg in aknastih brazgotin.
+                            Diamantni piling je postopek glajenja kože, ki edini združuje sočasno čiščenje in luščenje
+                            kože, odstranjevanje ogrcev in globinsko vlaženje. Koža se na ta način obnovi, regenerira in
+                            pomladi. Primeren je za vse tipe in stanja kože, seveda pa vaši koži prilagodimo ustrezno
+                            kombinacijo in intenzivnost brušenja.</p>
+                        <h3 class="h3 text-left">Z diamantnim pilingom izboljšamo stanje kože pri:</h3>
+                        <ul class="text-left">
+                            <li>brazgotinah;</li>
+                            <li>hiperpigmentaciji;</li>
+                            <li>mastni koži z širokimi porami;</li>
+                            <li>kože nagnjene k aknam;</li>
+                            <li>starajoči se koži (drobne gubice, starostne pege);</li>
+                            <li>utrujene in izsušene kože ter od sonca poškodovane kože;</li>
+                            <li>pomanjkanju tonusa.</li>
+                        </ul>
+                        <p>Diamantni piling nam omogoča nežno luščenje z diamantno glavo s pomočjo vakuma. Diamantne
+                            glave z različnimi nastavki nam omogočajo, da je luščenje in čiščenje kože kontrolirano,
+                            varno in brez bolečin. Med izvajanjem diamantnega pilinga odstranimo odmrle kožne celice in
+                            spodbudimo mikrocirkulacijo v koži.
+                            Diamantni piling lahko izvajamo tudi bolj agresivno, v kolikor želimo izboljšanje izgleda
+                            zaradi brazgotin ali zmanjšanja gub.</p>
+                        <p>Po tretmaju diamantnega pilinga bo  koža bolj gladka, nežna in sijoča, izboljša se struktura
+                            kože (zmanjšanje površinskih gubic, zmanjšanje brazgotin po aknah, zmanjšanje
+                            hiperpigmentacije). Koža je po postopku diamantnega pilinga čista, prekrvavitev tkiv je
+                            povečana, koža pa pripravljena na samoobnavljanje. Koža vam bo hvaležna.</p>
+                        <p>Diamantni piling je varen in učinkovit način za mehansko obnovo kože.
+                            Po posegu se lahko takoj naličite in vrnete k vašim opravilom
+                            Stranski učinki? Pri diamantnem pilingu jih skorajda ni. Koža lahko prve ure po tretmaju
+                            diamantnega pilinga daje rahlo pekoč občutek in lahko postane rahlo rdeča.</p>
+                        <p>Za vidne in zadovoljive rezultate priporočamo, da opravite  6 tretmajev diamantnega pilinga
+                            (1x na teden po 6 tednov).  Po tretmaju diamantnega pilinga odsvetujemo obisk solarija in
+                            neposrednega izpostavljanja soncu. Med tretmaji diamantnega pilinga je potrebna uporaba krem
+                            z visokim zaščitnim faktorjem. 
+                            Diamantni piling ni primeren za stranke, ki imajo kožno bolezen, poškodbe na obrazu ali
+                            kuperozo.</p>
                     </div>
                 </div>
             </div>
@@ -95,8 +178,8 @@
                     <div class="info">
                         <h4 class="text-center">Maloprodaja kozmetike Afrodita</h4>
 
-                        <p>Po posvetu s kozmetičarko lahko v našem salonu kupite tudi kozmetiko Afrodita za nego obraza
-                            in telesa doma.</p>
+                        <p>Po posvetu s kozmetičarko lahko v našem salonu kupite tudi kozmetiko Afrodita za domačo
+                            nego.</p>
                     </div>
                 </div>
             </div>
