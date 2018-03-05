@@ -25,7 +25,7 @@
                     <i class="fa fa-circle-thin fa-stack-2x"></i>
                     <i class="fa fa-phone fa-stack-1x"></i>
                 </span>
-                02/331-42-19
+                02/331-42-19 ali 070/508-201
             </span>
             <br/>
             <br/>

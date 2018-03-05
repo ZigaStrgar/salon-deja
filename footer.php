@@ -7,6 +7,7 @@
         Tabor - Beograjska ulica 6a <br/>
         2000 Maribor<br/>
         02/331-42-19<br/>
+        070/508-201<br/>
         <a href="mailto:info@salon-deja.si">info@salon-deja.si</a>
     </div>
     <div class="col-lg-6 col-md-12">

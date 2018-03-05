@@ -31,7 +31,7 @@
             kislina, vključno s tistimi iz hrane.</p>
 
         <p>Najlepše učinke doseženo z kombinacijo različnih anticelulitnih postopkov. Med in po terapiji kavitacije je
-            potrebno izvesti stimulacijo mišic ali radiofrekvenco ali gretje telesa z infrardečo svetlobo in limfno
+            potrebno izvesti stimulacijo mišic ali radiofrekvenco ali gretje telesa z infrardečo toploto in limfno
             drenažo
             ali body wrapping.</p>
 

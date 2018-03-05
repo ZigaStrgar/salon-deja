@@ -62,7 +62,7 @@
         <span class="header-icons">
             <span class="header-item"><i class="fa fa-map-marker header-icon"></i> Tabor - Beograjska ulica 6a</span>
             <span class="header-item"><i class="fa fa-building-o header-icon"></i> 2000 Maribor</span>
-            <span class="header-item"><i class="fa fa-phone header-icon"></i> 02/331-42-19</span>
+            <span class="header-item"><i class="fa fa-phone header-icon"></i> 02/331-42-19 ali 070/508-201</span>
             <span class="header-item"><i class="fa fa-at header-icon"></i> <a href="mailto: info@salon-deja.si">info@salon-deja.si</a></span>
             <span class="header-item"><i class="fa fa-car header-icon"></i> Brezplačno parkiranje</span>
             <span class="header-item"><i class="fa fa-group header-icon"></i> <a href="about.php">O nas</a></span>
@@ -111,9 +111,6 @@
                 </li>
                 <li>
                     <a href="packages.php">Paketi ugodnosti</a>
-                </li>
-                <li>
-                    <a href="products.php">Produkti</a>
                 </li>
                 <li>
                     <a href="pricing.php">Cenik</a>
